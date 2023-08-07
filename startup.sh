@@ -1,7 +1,7 @@
 #! /bin/sh
 
 ##back and nightlight
-redshift -l 27.70411:30.86530 -t 5700:3600 -g 0.8 -m randr -v &
+redshift -l [lon]:[lat] -t 5700:3600 -g 0.8 -m randr -v &
 xbacklight -set 50
 
 ##wifi startup
